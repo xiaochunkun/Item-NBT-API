@@ -97,8 +97,7 @@ public class Forge1710Mappings {
         try {
             crucible_toString = Class.forName("net.minecraft.nbt.NBTTagCompound")
                     .getDeclaredMethod("crucible_toString");
-        } catch (Exception e) {
-            e.printStackTrace();
+        } catch (Exception ignored) {
         }
     }
 
